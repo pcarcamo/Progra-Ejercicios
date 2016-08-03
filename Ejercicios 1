@@ -1,0 +1,6 @@
+var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+var f=new Date();
+document.write('Hoy es: ' + diasSemana[f.getDay()] + ", " + f.getDate() + " ");
+var d = new Date();
+document.write('<br>Hora: '+d.getHours(),
+' ' +d.getMinutes(),': '+d.getSeconds());
