@@ -1,0 +1,3 @@
+var t= new
+document.write('ventan actual ' + window.print())
+  
